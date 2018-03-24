@@ -1,0 +1,9 @@
+Package: rsyncmark.data
+Title: rsyncmark data and analysis
+Description: data and analysis from "Rsyncmark: a benchmarking utility for rsync"
+Version: 0.1
+Author: Brian Rogers
+Maintainer: Brian Rogers 
+Depends: R (>= 3.4.1)
+License: >GPL-2
+LazyData: true
