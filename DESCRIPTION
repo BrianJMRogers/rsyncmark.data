@@ -1,9 +1,9 @@
 Package: rsyncmark.data
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Title: Analysis of Data Collected in "Rsyncmark: a benchmarking utility for rsync"
+Version: 0.0.0.1
+Authors@R: person("Brian", "Rogers", email = "brianjmrogers@gmail.com", role = c("aut", "cre"))
+Description: This package documents the data analysis performed in my senior undergraduate thesis "Rsyncmark: a benchmarking utility for rsync"
 Depends: R (>= 3.4.1)
-License: What license is it under?
+License: GNU General Public License
 Encoding: UTF-8
 LazyData: true
