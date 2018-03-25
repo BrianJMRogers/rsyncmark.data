@@ -6,7 +6,7 @@ library(dplyr)
 read_data <- function()
 {
   # read data files
-  data_full <- read_csv("data/data.csv")
+  data_full <- read_csv("inst/data.csv")
   return(data_full)
 }
 
