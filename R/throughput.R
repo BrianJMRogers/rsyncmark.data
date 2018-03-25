@@ -7,11 +7,8 @@ read_data <- function()
 {
   # read data files
   data_full <- read_csv("data/data.csv")
-  return data_full
+  return(data_full)
 }
-
-# break table into large/medium and small/tiny
-
 
 violin_plot_throughput <- function()
 {
