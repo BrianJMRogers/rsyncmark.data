@@ -14,7 +14,7 @@ violin_plot_throughput <- function()
 {
   data_full <- read_data()
   # graph line graph
-  ggplot(data = data_full, mapping = aes(x = trial_num, y = throughput_bytes_per_second, color = trial_name)) + geom_jitter() + facet_wrap(~ file_size_name)
+  ggplot(data = data_full, mapping = aes(x = trial_name, y = throughput_bytes_per_second)) + geom_violin() + facet_wrap(~ file_size_name)
 }
 
 point_plot_throughput <- function()
@@ -23,6 +23,8 @@ point_plot_throughput <- function()
   # graph line graph
   ggplot(data = data_full, mapping = aes(x = trial_num, y = throughput_bytes_per_second, color = trial_name)) + geom_jitter() + facet_wrap(~ file_size_name)
 }
+
+
 
 graph_large_medium_real_time <- function()
 {
